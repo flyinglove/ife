@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>三栏布局</title>
+	<!-- <link rel="stylesheet" href=""> -->
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		img{
+			width: 80px;
+			height: 80px;
+		}
+		div{
+			border: 1px solid #333;
+		}
+		.wrapper{
+			position: relative;
+			width: 80%;
+			min-width: 660px;
+			margin: 0 auto;
+			padding: 20px;
+			background: #eee;
+		}
+		.wrapper div{
+			background: #fff;
+			text-align: center;
+			padding: 20px;
+		}
+		.left{
+			width: 200px;
+			position: absolute;
+		}
+		.left figure figcaption {
+			float: right;
+		}
+		.right{
+			width: 120px;
+			position: absolute;
+			top: 20px;
+			right: 20px;
+		}
+		.right img:not(:last-child){
+			border: 0 none;
+			padding-bottom: 10px;
+		}
+		.center{
+			width: auto;
+			margin-left: 220px;
+			margin-right: 140px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="left">
+			<figure>
+				<figcaption>
+					Fairy Tail
+				</figcaption>
+				<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1487996549603&di=d0c5cd2d526313d42c0d09091eafe14c&imgtype=0&src=http%3A%2F%2Fimg02.tooopen.com%2Fimages%2F20151104%2Ftooopen_sy_147564657945.jpg" alt="Dragon Slayer">
+			</figure>
+		</div>
+		<div class="center">
+			<p>
+				软弱的人会一直软弱下去，但是软弱并非完全是坏事，人本来就是软弱的生物啊，一个人活不下去所以才需要魔法协会，才需要同伴，为了更坚强地活下去，大家相互扶持着前进。不善于表达的人会比普通人跌更多的跟头、绕更多远路，但只要相信明天一直走下去的话，力量很自然就会涌现，就可以更坚强地笑着走下去。 ——马卡洛夫
+			</p>
+			<p>
+				不管是愉快还是悲伤，虽然不能全部承担，但在一定程度上是可以共同分担的，这便是协会。一个人的幸福即是大家的幸福，一个人的愤怒则是大家的愤怒，并且，一个人的眼泪便是大家的眼泪，没有必要过于自责，露西，大家的心意应该都传达给你了，抬起头来，因为你是妖精的尾巴的同伴。 ——马卡洛夫
+			</p>
+			<p>
+				但是脱离妖精的尾巴的人必须遵守三条规定，给我认真听好了，第一，一生不得泄露不利于妖精的尾巴的情报;第二，不可擅自与过去的委托人接触，谋求个人利益;第三，就算所选择的道路不同，也必须坚强地活下去，绝不可视己之生命为草芥，一生不可忘记自己深爱的挚友。 ——艾露莎
+			</p>
+		</div>
+		<div class="right">
+			<img src="http://imgsrc.baidu.com/forum/w%3D580/sign=3c27f19149ed2e73fce98624b701a16d/623820d12f2eb938910d64e7d6628535e4dd6fa5.jpg" alt="个人logo"><img src="http://img.yaojingweiba.com/uploads/allimg/141031/025R05518-3.jpg" alt="个人logo"><img src="http://imgsrc.baidu.com/forum/w%3D580/sign=2a787decb8014a90813e46b599763971/40d65d36acaf2edd97a38bb78c1001e938019379.jpg" alt="个人logo">
+		</div>
+		
+	</div>
+</body>
+</html>
