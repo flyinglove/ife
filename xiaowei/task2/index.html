@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>任务二</title>
+	<!-- <link rel="stylesheet" href=""> -->
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			font-size: 16px;
+			background: #ccc;
+		}
+		body>header{
+			height: 60px;
+			background: #222;
+			/*color: #fff;*/
+		}
+		body>header, nav{
+			overflow: hidden;
+		}
+		body>header img{
+			float: left;
+			margin-top: 10px;
+			margin-left: 40px;
+		}
+		body>header ul{
+			float: right;
+		}
+		body>header nav{
+			height: 60px;
+		}
+		body>header ul li{
+			/*display: inline-block;*/
+			float: left;
+			margin-right: 30px;
+			height: 60px;
+			line-height: 60px;
+
+		}
+		body>header a{
+			color: #fff;
+			text-decoration: none;
+		}
+
+
+		article, aside{
+			background: #fff;
+			border: 1px solid #ccc;
+			box-shadow: 1px 2px 1px 0 #333;
+			width: 90%;
+			margin: 10px auto;
+			padding: 40px 20px;
+		}
+		article h3{
+			color: #666;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		article header span{
+			font-size: 14px;
+			color: #666;
+			font-weight: bold;
+		}
+		article p{
+			text-indent: 2em;
+		}
+		article ul{
+			list-style: none;
+		}
+		article figure{
+			border: 1px solid #ccc;
+			padding: 10px;
+			width: 320px;
+			margin: 10px;
+			margin-left: 40px;
+		}
+		article figure figcaption{
+			text-align: center;
+			padding-bottom: 10px;
+		}
+		article figure img{
+			width: 300px;
+		}
+		article ol{
+			margin-left: 40px;
+			color: #333;
+		}
+		table, th, td{
+			border: 1px solid #ccc;
+		}
+		article table{
+			width: 100%;
+			border-collapse: collapse;
+		}
+		article table thead{
+			background: #333;
+			color: #fff;
+		}
+		article table tfoot{
+			background: #eee;
+			font-weight: bold;
+		}
+		aside h2{
+			font-size: 16px;
+			padding: 10px 20px;
+			border-left: 3px solid #aaa;
+		}
+		aside form{
+			/*margin-left: 100px;*/
+			font-size: 14px;
+		}
+		aside div{
+			padding-right: 600px;
+			text-align: right;
+		}
+		aside div p{
+			font-size: 10px;
+			color: #666;
+
+		}
+		aside textarea{
+			vertical-align: top;
+		}
+		.sex, .city, .hobby{
+			text-align: left;
+			padding-left: 364px;
+		}
+		.submit{
+			display: block;
+			width: 100%;
+			height: 30px;
+			color: #fff;
+			background: #3145fe;
+			text-align: center;
+			border: none;
+			border-radius: 4px;
+			margin: 5px;
+		}
+		footer{
+			background: #000;
+			color: #fff;
+			text-align: center;
+			height: 60px;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="https://www.baidu.com/img/baidu_jgylogo3.gif" alt="logo">
+		<!-- <h1>网站一级标题</h1> -->
+		<nav>
+			<ul>
+				<li><a href="#">导航链接一</a></li>
+				<li><a href="#">导航链接二</a></li>
+				<li><a href="#">导航链接三</a></li>
+				<li><a href="#">导航链接四</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article>
+			<header>
+				<hgroup>
+					<h2>文章一级标题</h2>
+					<h3>文章二级标题</h3>
+				</hgroup>
+				<span>文章作者</span>
+				<span>文章发表时间</span>
+			</header>
+			<p>
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				这是一个很长很长的段落
+				<a href="http://ife.baidu.com">这个链接可以链接到百度前端技术学院</a>
+				<strong>这是strong的字体</strong>
+				<img src="http://i0.hdslb.com/bfs/archive/5009a193676d6166083dc756fe40bd555f48864d.jpg@.webp" alt="B站图片">
+			</p>
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+		</article>
+		<article>
+			<h2>图片</h2>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="http://i0.hdslb.com/bfs/archive/5009a193676d6166083dc756fe40bd555f48864d.jpg@.webp" alt="B站图片">
+			</figure>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="http://i0.hdslb.com/bfs/archive/5009a193676d6166083dc756fe40bd555f48864d.jpg@.webp" alt="B站图片">
+			</figure>
+			<figure>
+				<figcaption>好看的图片</figcaption>
+				<img src="http://i0.hdslb.com/bfs/archive/5009a193676d6166083dc756fe40bd555f48864d.jpg@.webp" alt="B站图片">
+			</figure>
+		</article>
+		<article>
+			<header>
+				<hgroup>
+					<h2>最后一篇文章一级标题</h2>
+					<h3>文章二级标题</h3>
+				</hgroup>
+				<span>文章作者</span>
+				<span>文章发表时间</span>
+			</header>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格</p>
+			<table>
+				<thead>
+					<tr>
+						<th>表头</th>
+						<th>表头</th>
+						<th>表头</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>单元格</td>
+						<td>单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>单元格</td>
+						<td>单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>单元格</td>
+						<td>单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>单元格</td>
+						<td>单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>总计</td>
+						<td colspan="2">1000</td>
+					</tr>
+				</tfoot>
+			</table>
+		</article>
+		<aside>
+			<h2>这是侧栏标题,侧栏注册窗口标题</h2>
+			<form action="">
+				<div class="mail">
+					<label for="mail">请输入邮箱地址</label>
+					<input type="text" id="mail">
+					<p>邮箱地址请按要求输入</p>
+				</div>
+				<div class="password">
+					<label for="password">请输入密码</label>
+					<input type="password" pattern="(\d|[a-z]|[A-Z]){6, 16}" id="password">
+				</div>
+				<div class="confirm">
+					<label for="confirm">重复输入密码</label>
+					<input type="password" pattern="(\d|[a-z]|[A-Z]){6, 16}" id="confirm">
+					<p>密码为6-16位英文数字</p>
+				</div>
+
+				<div class="sex">
+					<label for="sex">性别: </label>
+					<input type="radio" id="sex" name="sex" value="1">男
+					<input type="radio" id="sex" name="sex" value="2">女
+				</div>
+
+				<div class="city">
+					<label for="city">城市: </label>
+					<select name="city" id="city">
+						<option value="1">北京</option>
+						<option value="2">南京</option>
+					</select>
+				</div>
+
+				<div class="hobby">
+					<label for="hobby">爱好: </label>
+					<input type="checkbox" name="hobby" value="1">读书
+					<input type="checkbox" name="hobby" value="2">运动
+					<input type="checkbox" name="hobby" value="3">科学
+				</div>
+				<div class="describe">
+					<label for="describe">个人描述: </label>
+					<textarea name="describe" id="describle" rows="5">这是一个多行输入框，输入个人描述</textarea>
+				</div>
+				<input type="submit" value="确认提交" class="submit">
+			</form>
+		</aside>
+	</main>
+	<footer>
+		版权所有&copy;
+	</footer>
+</body>
+</html>
