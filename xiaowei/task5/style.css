@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+
+}
+body>header{
+	height: 60px;
+	background: #001224;
+}
+header .nav{
+	width: 90%;
+	margin: 0 auto;
+}
+body>header img{
+	height: 60px;
+}
+body>header nav{
+	float: right;
+	height: 60px;
+}
+body>header nav ul{
+	overflow: hidden;/*撑起高度*/
+	height: 60px;
+}
+body>header ul li{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	margin-left: 30px;
+}
+body>header ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+body>header ul li:hover{
+	background: #010203;
+}
+
+/*主体部分*/
+body{
+	background: #c3c3c3;
+}
+body main{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+body article{
+	width: 70%;
+	margin-top: 20px;
+	padding: 30px 20px;
+	background: #fff;
+	box-shadow: 1px 2px 1px 0 #030303;
+	float: left;
+}
+body aside{
+	width: 29%;
+	margin-top: 20px;
+	float: right;
+	padding: 30px 20px;
+	background: #fff;
+	box-shadow: 1px 2px 1px 0 #030303;
+}
+body aside h3{
+	padding: 10px;
+	border-left: 4px solid #c3c3c3;
+}
+body aside form{
+	font-size: 12px;
+}
+body aside .mail, .password, .confirm{
+	text-align: right;
+	margin: 10px 5px;
+	margin-right: 60px;
+}
+aside input[type="radio"], aside input[type="checkbox"]{
+	vertical-align: bottom;
+}
+
+.mail p, .confirm p{
+	color: #333;
+	margin-top: 10px;
+	/*margin-left: 10px;*/
+}
+.mail label, .password label, .confirm label{
+	margin-right: 5px;
+}
+.mail input, .password input, .confirm input{
+	width: 44%;
+}
+.sex, .city, .hobby{
+	padding-left: 115px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.describe textarea{
+	width: 130px;
+	vertical-align: top;
+}
+.describe span{
+	padding-left: 96px;
+}
+.sex span, .city span, .hobby span{
+	margin-right: 10px;
+}
+.submit{
+	width: 100%;
+	margin-top: 10px;
+	padding: 5px;
+	background: #0c77ff;
+	border: 0 none;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: bold;
+}
+body article h2{
+	margin: 10px auto;
+	border-left: 2px solid #c3c3c3;
+}
+body article h3{
+	color: #555;
+	margin: 15px auto;
+}
+body article header{
+	margin-bottom: 5px;
+}
+body article header span{
+	color: #555;
+	margin-right: 5px;
+}
+body article p{
+	text-indent: 2em;
+}
+body article ul{
+	list-style-type: none;
+	margin-left: 30px;
+}
+body article{
+	overflow: hidden;
+}
+body article figure> img{
+	width: 130px;
+}
+body article figure{
+	float: left;
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+body article figure:nth-child(6n){
+	/*margin-right: 0;*/
+}
+body article figcaption{
+	text-align: center;
+}
+body article ol{
+	margin-left: 60px;
+}
+body article ol + p{
+	text-indent: 0;
+}
+
+body article table{
+	width: 100%;
+}
+body article table th, body article table td{
+	padding: 5px;
+}
+body article thead{
+	text-align: left;
+	background: #222;
+	color: #fff;
+}
+body article tfoot{
+	background: #aaa;
+}
+body article table, body article table th, body article table td{
+	border: 1px solid #aaa;
+	border-collapse: collapse;
+}
+
+
+
+footer{
+	clear: both;
+	height: 60px;
+	text-align: center;
+	color: #fff;
+	background: #000;
+	padding-top: 20px;
+}
